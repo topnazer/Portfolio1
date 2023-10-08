@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #ce7024; 
+  color: #444; 
+  
+}
+
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #ff5733; 
+}
+
+header nav ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #ff5733; 
+  font-weight: 600;
+}
+
+
+section {
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+section h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+
+section#contact form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+section#contact form label {
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #ff5733;
+}
+
+section#contact form input[type="text"],
+section#contact form input[type="email"],
+section#contact form textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  background-color: #f9f9f9;
+}
+
+section#contact form button {
+  background-color: #ff5733; 
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 32px;
+  }
+
+  section {
+    margin: 20px;
+  }
+}
+footer{
+  text-align: center;
+  font-weight: bold;
+  color:#ff5733;
+  background-color: #000000;
+}
+.project {
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
